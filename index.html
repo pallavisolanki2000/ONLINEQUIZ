@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZBOX-Online Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+            <img src="img/WTG-Online-Exam.png" alt="quiz logo" class="tilt"/>
+        </div>
+        <div class="rightside">
+            <h1>Welcome to QuizBox</h1>
+            <h2>General Instructions -</h2>
+            <ul>
+                <li>10 Questions</li>
+                <li>200 sec for each question</li>
+                <li>Random Questions</li>
+                <li>Result will be displayed after quiz finished</li>
+            </ul>
+
+            <a href="questions.html">Let's get started</a>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/tilt.min.js"></script>
+    <script>
+        $(".tilt").tilt({
+            scale:1.2,
+        });
+    </script>
+</body>
+</html>
